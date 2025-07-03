@@ -1,26 +1,25 @@
-# 👋 Hi, I'm Amirhossein haajilari
+# 👋 Hi, I'm Amirhossein Haajilari
 
 🎯 **Front-End Developer | React | UI Optimization | Financial Platforms**  
 📍 Tehran, Iran  
 📧 amirhossein.haajilari@gmail.com  
 📞 +98 922 617 3216  
-🌐 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/haajilari)
+🌐 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haajilari)
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:amirhossein.haajilari@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github)](https://github.com/haajilari)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/haajilari)
 
 ---
 
 ## 💼 About Me
 
-I'm a React-based Front-End Developer with over 4 years of professional experience in designing and optimizing complex web platforms — from **cryptocurrency wallets** to **organizational management systems**.
-
-I care deeply about **UX**, **performance optimization**, and **clean UI architecture**. Recently, I achieved a **30% performance boost** in crypto-based platforms like Zixobot, Walliro, and Lopiro.
+I'm a React-based Front-End Developer with over 4 years of experience designing and optimizing complex platforms — from **cryptocurrency wallets** to **enterprise management systems**.  
+I care deeply about **UX**, **performance**, and **clean UI architecture**.
 
 ---
 
-## 🔧 Tech Stack
+## 🚀 Tech Stack
 
-### 👨‍💻 Languages & Frameworks
+### 🧠 Languages & Frameworks
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -46,11 +45,16 @@ I care deeply about **UX**, **performance optimization**, and **clean UI archite
 
 ---
 
-## 🔥 My GitHub Motivation Stats
+## 📊 Most Used Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=haajilari&layout=compact&langs_count=8&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+## 📈 GitHub Stats
+
+![Haajilari's GitHub Stats](https://github-readme-stats.vercel.app/api?username=haajilari&show_icons=true&theme=gruvbox&hide=prs)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=haajilari&theme=gruvbox&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=haajilari&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-![Tech Stack Animation](https://raw.githubusercontent.com/haajilari/haajilari/assets/techstack-loop.gif)
-
+[![Trophy](https://github-profile-trophy.vercel.app/?username=haajilari&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy)
