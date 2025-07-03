@@ -52,4 +52,5 @@ I care deeply about **UX**, **performance optimization**, and **clean UI archite
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=haajilari&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
+![Tech Stack Animation](https://raw.githubusercontent.com/haajilari/haajilari/assets/techstack-loop.gif)
 
