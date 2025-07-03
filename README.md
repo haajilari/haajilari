@@ -53,7 +53,6 @@ I care deeply about **UX**, **performance**, and **clean UI architecture**.
 
 ## 📈 GitHub Stats
 
-![Haajilari's GitHub Stats](https://github-readme-stats.vercel.app/api?username=haajilari&show_icons=true&theme=gruvbox&hide=prs)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=haajilari&theme=gruvbox&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
 
