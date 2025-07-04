@@ -9,13 +9,6 @@
 
 ---
 
-## 💼 About Me
-
-I'm a React-based Front-End Developer with over 4 years of experience designing and optimizing complex platforms — from **cryptocurrency wallets** to **enterprise management systems**.  
-I care deeply about **UX**, **performance**, and **clean UI architecture**.
-
----
-
 ## 🚀 Tech Stack
 
 ### 🧠 Languages & Frameworks
