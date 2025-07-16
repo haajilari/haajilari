@@ -41,11 +41,3 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=haajilari&layout=compact&langs_count=8&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
 
----
-
-## 📈 GitHub Stats
-
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=haajilari&theme=gruvbox&date_format=%5BY.%5Dn.j)](https://git.io/streak-stats)
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=haajilari&theme=gruvbox&column=7)](https://github.com/ryo-ma/github-profile-trophy)
