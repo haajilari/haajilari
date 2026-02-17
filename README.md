@@ -39,4 +39,4 @@
 
 ## 📊 Most Used Languages
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=haajilari&show_icons=true)
+![Lary's GitHub stats](https://github-readme-stats.vercel.app/api?username=haajilari&show_icons=true)
