@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Amirhossein Haajilari
 
-🎯 **Front-End Developer | Reactjs | Nextjs | UI Optimization | Financial Platforms | Logistic Systems**  
+🎯 ** Software Developer | Python | Django |Reactjs | Nextjs | UI Optimization | Financial Platforms | Logistic Systems**  
 📍 Tehran, Iran  
 📧 amirhossein.hajilari@gmail.com  
 🌐 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haajilari)
