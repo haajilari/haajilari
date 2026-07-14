@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Amirhossein Haajilari
+# 👋 Hi, I'm Amirhossein Hajilari
 
 🎯 ** Software Developer | Python | Django |Reactjs | Nextjs | UI Optimization | Financial Platforms | Logistic Systems**  
 📍 Tehran, Iran  
