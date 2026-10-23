@@ -1,1 +1,160 @@
+name: Update profile stats
 
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - README.md
+      - .github/workflows/update-profile-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: >-
+      github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
+      (github.event_name != 'push' || github.actor != 'github-actions[bot]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate light statistics
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          core_version: "2.2.0"
+          path: ${{ runner.temp }}/profile-cards/stats-light.svg
+          fail_on_error: true
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          options: username=haajilari&hide_rank=true&hide=issues,contribs&show_icons=true&disable_animations=true&number_format=long&custom_title=GitHub%20Activity&bg_color=ffffff&title_color=0969da&text_color=1f2328&icon_color=0969da&border_color=d1d9e0&card_width=460
+
+      - name: Generate dark statistics
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          core_version: "2.2.0"
+          path: ${{ runner.temp }}/profile-cards/stats-dark.svg
+          fail_on_error: true
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          options: username=haajilari&hide_rank=true&hide=issues,contribs&show_icons=true&disable_animations=true&number_format=long&custom_title=GitHub%20Activity&bg_color=0d1117&title_color=79b8ff&text_color=e6edf3&icon_color=79b8ff&border_color=30363d&card_width=460
+
+      - name: Generate light language statistics
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          core_version: "2.2.0"
+          path: ${{ runner.temp }}/profile-cards/languages-light.svg
+          fail_on_error: true
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          options: username=haajilari&layout=compact&langs_count=6&disable_animations=true&custom_title=Language%20Usage&bg_color=ffffff&title_color=0969da&text_color=1f2328&border_color=d1d9e0&card_width=460
+
+      - name: Generate dark language statistics
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          core_version: "2.2.0"
+          path: ${{ runner.temp }}/profile-cards/languages-dark.svg
+          fail_on_error: true
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          options: username=haajilari&layout=compact&langs_count=6&disable_animations=true&custom_title=Language%20Usage&bg_color=0d1117&title_color=79b8ff&text_color=e6edf3&border_color=30363d&card_width=460
+
+      - name: Validate and stage the complete update
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          staged = Path(os.environ["RUNNER_TEMP"]) / "profile-cards"
+          names = (
+              "stats-light.svg",
+              "stats-dark.svg",
+              "languages-light.svg",
+              "languages-dark.svg",
+          )
+
+          cards = {}
+          for name in names:
+              data = (staged / name).read_bytes()
+              root = ET.fromstring(data)
+
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise SystemExit(f"Invalid SVG: {name}")
+
+              if "something went wrong" in " ".join(root.itertext()).lower():
+                  raise SystemExit(f"Error card rejected: {name}")
+
+              cards[name] = data
+
+          readme = Path("README.md")
+          original = readme.read_text(encoding="utf-8")
+          start = "<!-- STATS:START -->"
+          end = "<!-- STATS:END -->"
+
+          if original.count(start) != 1 or original.count(end) != 1:
+              raise SystemExit(
+                  "README must contain one STATS:START / STATS:END marker pair."
+              )
+
+          stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          replacement = (
+              f"{start}\n"
+              f"<sub>Last successful refresh: {stamp} "
+              f"· Scheduled every 6 hours.</sub>\n"
+              f"{end}"
+          )
+
+          updated, count = re.subn(
+              re.escape(start) + r".*?" + re.escape(end),
+              lambda _: replacement,
+              original,
+              flags=re.S,
+          )
+
+          if count != 1:
+              raise SystemExit("README statistics markers are out of order.")
+
+          Path("profile").mkdir(exist_ok=True)
+          for name, data in cards.items():
+              (Path("profile") / name).write_bytes(data)
+
+          readme.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Publish the successful update
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -- \
+            README.md \
+            profile/stats-light.svg \
+            profile/stats-dark.svg \
+            profile/languages-light.svg \
+            profile/languages-dark.svg
+
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git commit -m "chore: refresh profile statistics [skip ci]"
+          git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
