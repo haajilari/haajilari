@@ -1,44 +1,131 @@
-# 👋 Hi, I'm Amirhossein Hajilari
+<h1 align="center">Amirhossein Hajilari</h1>
 
-🎯 ** Software Developer | Python | Django |Reactjs | Nextjs | UI Optimization | Financial Platforms | Logistic Systems**  
-📍 Tehran, Iran  
-📧 amirhossein.hajilari@gmail.com  
-🌐 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haajilari)
-[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:amirhossein.haajilari@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/haajilari)
+<h3 align="center">Software Engineer</h3>
 
----
+<p align="center">
+  <strong>Full Stack Development · Business Automation · Systems Integration</strong>
+</p>
 
-## 🚀 Tech Stack
+<p align="center">
+  Building web applications and automation for finance and logistics.
+</p>
 
-### 🧠 Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-3776AB?style=flat&logo=django&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-20232A?style=flat&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js)
-![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux&logoColor=white)
-![Zustand](https://img.shields.io/badge/-Zustand-000000?style=flat)
-![Formik](https://img.shields.io/badge/-Formik-EF4B4C?style=flat)
+<p align="center">
+  <a href="https://www.linkedin.com/in/hajilari/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square" alt="LinkedIn" />
+  </a>
+  <a href="mailto:amirhossein.hajilari@gmail.com">
+    <img src="https://img.shields.io/badge/Email-334155?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-### 🎨 UI & Styling
+## About me
 
-![Material UI](https://img.shields.io/badge/-MaterialUI-007FFF?style=flat&logo=mui&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap)
+Hi, I'm **Lary** — a Software Engineer working across frontend development, backend systems, and business automation.
 
-### ⚙️ Tools & Practices
+I build applications that help teams manage complex workflows, connect their systems, and work with their data. My interests include **financial automation**, **logistics platforms**, and **usable enterprise interfaces**.
 
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![Webpack](https://img.shields.io/badge/-Webpack-8DD6F9?style=flat&logo=webpack&logoColor=black)
-![Agile](https://img.shields.io/badge/-Agile-lightgrey?style=flat)
-![Unit Testing](https://img.shields.io/badge/-Unit%20Testing-6DB33F?style=flat)
+I care about clear architecture, reusable components, predictable APIs, and software that is easy to maintain.
 
----
+## Tech stack
 
-## 📊 Most Used Languages
+### Languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=haajilari&layout=compact)
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+</p>
 
+**Backend & APIs**
+
+<p>
+  <img src="https://img.shields.io/badge/Django-243247?style=flat-square&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/REST%20APIs-243247?style=flat-square" alt="REST APIs" />
+</p>
+
+**Frontend**
+
+<p>
+  <img src="https://img.shields.io/badge/React-243247?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-243247?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+</p>
+
+**Database**
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-243247?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+</p>
+
+**State & data fetching**
+
+<p>
+  <img src="https://img.shields.io/badge/TanStack%20Query-243247?style=flat-square&logo=reactquery&logoColor=FF4154" alt="TanStack Query" />
+  <img src="https://img.shields.io/badge/Redux%20Toolkit-243247?style=flat-square&logo=redux&logoColor=B39DDB" alt="Redux Toolkit" />
+  <img src="https://img.shields.io/badge/Zustand-243247?style=flat-square" alt="Zustand" />
+</p>
+
+**UI & forms**
+
+<p>
+  <img src="https://img.shields.io/badge/MUI-243247?style=flat-square&logo=mui&logoColor=69B5FF" alt="MUI" />
+  <img src="https://img.shields.io/badge/React%20Hook%20Form-243247?style=flat-square&logo=reacthookform&logoColor=EC82A6" alt="React Hook Form" />
+  <img src="https://img.shields.io/badge/Zod-243247?style=flat-square&logo=zod&logoColor=8CB7E8" alt="Zod" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-243247?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+</p>
+
+**Tools & practices**
+
+<p>
+  <img src="https://img.shields.io/badge/Git-243247?style=flat-square&logo=git&logoColor=F59E8B" alt="Git" />
+  <img src="https://img.shields.io/badge/Vite-243247?style=flat-square&logo=vite&logoColor=B7A3FF" alt="Vite" />
+  <img src="https://img.shields.io/badge/Automated%20Testing-243247?style=flat-square" alt="Automated testing" />
+</p>
+
+<details>
+  <summary>More experience & engineering interests</summary>
+
+- **Additional tools:** Formik, Bootstrap, Webpack, HTML, CSS.
+- **Interface engineering:** reusable components, complex forms, data grids, RTL, and localization.
+- **Application design:** API integration, validation, error handling, and access control.
+- **Ways of working:** version control, automated tests, and iterative delivery.
+
+</details>
+
+## Selected work
+
+### Finance Automation Engine
+
+Python-based automation connecting operational and financial systems, with invoice and payment processing, mapping rules, retries, and reconciliation.
+
+### Chapar Operational Portal
+
+React and TypeScript interfaces for logistics operations, including orders, consignments, fleet management, and data-heavy workflows.
+
+### Document Management System
+
+Interfaces for organizing documents, managing access, and supporting document workflows across organizational teams.
+
+### Enterprise Newsletter
+
+Python-powered subscription workflows with multilingual confirmation and unsubscribe experiences.
+
+## GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+  <img src="./profile/stats-light.svg" alt="GitHub statistics, generated automatically from the configured repository access" width="460" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/languages-light.svg" />
+  <img src="./profile/languages-light.svg" alt="Language usage across eligible repositories; this chart does not measure proficiency" width="460" />
+</picture>
+
+<!-- STATS:START -->
+*Statistics appear after the first successful workflow run.*
+<!-- STATS:END -->
+
+<sub>Language usage describes repository content. Some professional work may not be represented in public statistics.</sub>
