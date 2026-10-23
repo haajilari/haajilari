@@ -125,7 +125,7 @@ Python-powered subscription workflows with multilingual confirmation and unsubsc
 </picture>
 
 <!-- STATS:START -->
-*Statistics appear after the first successful workflow run.*
+<sub>Last successful refresh: 2026-10-23T12:20:02Z · Scheduled every 6 hours.</sub>
 <!-- STATS:END -->
 
 <sub>Language usage describes repository content. Some professional work may not be represented in public statistics.</sub>
