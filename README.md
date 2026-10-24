@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Building web applications and automation for finance and logistics and everything you imagine.
+  Building web applications and automation for finance, logistics, integrated management and everything you imagine.
 </p>
 
 <p align="center">
