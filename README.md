@@ -10,13 +10,13 @@
   Building web applications and automation for finance, logistics, integrated management and everything you imagine.
 </p>
 <p align="center">
-  <a href="https://laryspace.tech/en">
+  <a href="https://laryspace.tech/en" target="_blank">
     <img src="https://img.shields.io/badge/LarySpace-71b830?style=flat-square" alt="LarySpace" />
   </a>
-  <a href="https://www.linkedin.com/in/hajilari/">
+  <a href="https://www.linkedin.com/in/hajilari/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square" alt="LinkedIn" />
   </a>
-  <a href="mailto:amirhossein.hajilari@gmail.com">
+  <a href="mailto:amirhossein.hajilari@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-334155?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
