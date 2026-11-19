@@ -11,7 +11,7 @@
 </p>
 <p align="center">
   <a href="https://laryspace.tech/en">
-    <img src="https://img.shields.io/badge/Lary-Space-0A66C2?style=flat-square" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LarySpace-71b830?style=flat-square" alt="LarySpace" />
   </a>
   <a href="https://www.linkedin.com/in/hajilari/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square" alt="LinkedIn" />
